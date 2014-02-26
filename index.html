@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+   <head>
+      <title>jQuery Segue</title>
+      <style>
+        #ex1 > div {
+          height: 317px;
+          width: 440px;
+        }
+
+        #ex2 > div {
+          background-image: url('http://lh5.ggpht.com/-aDIadNs3-Es/UBcJ9fnge8I/AAAAAAAAAp8/tqhGS1vyFak/Flickr-7523517158.jpg');
+          height: 317px;
+          width: 440px;
+        }
+      </style>
+   </head>
+   <body>
+      <section id="ex1">
+         <p>Segue is a jQuery plugin that simplifies image transitions. Here's a simple demo:</p>
+         <p><button>Transition</button></p>
+         <div data-segue-src="http://rwell.org/meNorway.png"></div>
+      </section>
+
+      <hr>
+
+      <section id="ex2">
+         <p>Segue is a jQuery plugin that simplifies image transitions. Here's a simple demo:</p>
+         <p><button>Transition</button></p>
+         <div data-segue-bgsrc="http://rwell.org/meNorway.png"></div>
+      </section>
+
+      <p>The original element doesn't have to be an image though:</p>
+      <script src="jquery-1.8.3.min.js"></script>
+      <script src="jquery-segue.js"></script>
+      <script src="code.js"></script>
+   </body>
+</html>
